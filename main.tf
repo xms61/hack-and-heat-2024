@@ -1,3 +1,6 @@
 module "vm_with_disk" {
-    # TODO: Use your module and create the resources
+    source = "./module"
+
+    disk_name = "hack_disk"
+    compute_name = "hack_instance"
 }
